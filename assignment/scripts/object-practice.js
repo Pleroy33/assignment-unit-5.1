@@ -42,6 +42,9 @@ console.log(me.favThreeFoods[2]); //console logged faveThreeFoods at index two o
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+console.log(me.shoeCount);// logged existing shoeCount
+me.shoeCount = me.shoeCount + 1;//added 1 to shoeCount
+console.log(me.shoeCount);// logged shoeCount again to verify, expected: 16
 
 
 /* 5. Add a new property to an existing object.
