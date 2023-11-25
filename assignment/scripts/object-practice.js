@@ -53,3 +53,6 @@ console.log(me.shoeCount);// logged shoeCount again to verify, expected: 16
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = 'Purple';//added favoriteColor purple to object me.
+console.log(me.favoriteColor);//logged it, expected: Purple
