@@ -10,7 +10,7 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
-  firstName: 'Paul',
+  firstName: 'Paul', //
   lastName: 'LeRoy',
   hasSiblings:true,
   shoeCount: 15,
@@ -25,14 +25,15 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-
-
+fullName = me.firstName + ' ' +me.lastName;// created fullName and accessed firstName and lastName of object me.
+console.log(fullName);// console logged fullName, expected output is "Paul LeRoy"
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
+console.log(me.favThreeFoods[0]); //console logged faveThreeFoods at index zero of oject litteral me.  expected output: 'coffee'
+console.log(me.favThreeFoods[2]); //console logged faveThreeFoods at index two of object literal me. expected output: 'hashbrowns'
 
 
 /* 4. Change a property of an existing object.
